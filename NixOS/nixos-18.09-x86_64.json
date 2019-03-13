@@ -31,14 +31,5 @@
       "type": "shell",
       "script": "./scripts/install.sh"
     }
-  ],
-  "post-processors": [
-      [
-        {
-            "type": "compress",
-            "format": "tar.gz",
-            "keep_input_artifact": true
-        }
-      ]
   ]
 }
