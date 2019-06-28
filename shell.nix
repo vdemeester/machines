@@ -1,3 +1,4 @@
+
 with import <nixpkgs> {};
 
 stdenv.mkDerivation {
@@ -5,9 +6,6 @@ stdenv.mkDerivation {
   buildInputs = [
     ansible
     ansible-lint
-    libguestfs
-    python37
-    python37Packages.libvirt
     gnumake
     packer
   ];
